@@ -1,0 +1,33 @@
+.planets__control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+  padding: 0 16px;
+}
+
+.planets__control-btn {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-color: #575fcf;
+  cursor: pointer;
+  transition: 0.15s ease-in all;
+  white-space: nowrap;
+  font-size: 16px;
+  user-select: none;
+  height: 40px;
+  width: 120px;
+  color: white;
+}
+
+.planets__control-btn[disabled] {
+  background-color: #c4cad4;
+  cursor: default;
+}

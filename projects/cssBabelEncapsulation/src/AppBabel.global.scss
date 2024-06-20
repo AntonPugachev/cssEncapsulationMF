@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+}
+#babel-root{
+  background-color: var(--bg-color);
+}
+:root,[data-theme="light"] {
+  --primary-color: #302AE6;
+  --secondary-color: #d4d7df;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+  --primary-color: #a53195;
+  --secondary-color: #818cab;
+  --font-color: #c3f2fb;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+}

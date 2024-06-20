@@ -1,0 +1,83 @@
+{
+  "name": "redux",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "s": "webpack serve --mode development --config ./webpack.config.dev.js",
+    "start": "webpack serve --open --mode development --config ./webpack.config.dev.js",
+    "start:live": "webpack serve --open --mode development --live-reload --hot --config ./webpack.config.dev.js"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-redux": "^7.2.8",
+    "redux": "^4.1.2",
+    "redux-actions": "^2.6.5",
+    "redux-actions-ts": "^0.1.1",
+    "redux-observable": "^2.0.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "x----x----x": "================Types================================",
+    "@types/jest": "^27.4.1",
+    "@types/react-redux": "^7.1.23",
+    "@types/redux-actions": "^2.6.2",
+    "@types/styled-components": "^5.1.25",
+    "storybook-dark-mode": "^1.0.9",
+
+    "x----x----x": "================Webpack 5============================",
+    "@emotion/babel-plugin": "^11.9.2",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "dotenv": "^16.0.0",
+    "x----x----x": "------Loaders------",
+    "url-loader": "^4.1.1",
+    "json-loader": "^0.5.7",
+
+    "x----x----x": "------Plugins-------",
+    "module-federation-plugin": "^0.8.4",
+    "x----x----x": "================Other============================",
+    "react-generator-cmd": "^2.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "x----x----x": "*"
+  },
+  "babel": {
+    "presets": [
+
+      "@babel/preset-react",
+      "@babel/preset-typescript",
+      [
+        "@emotion/babel-preset-css-prop",
+        {
+          "autoLabel": "never",
+          "labelFormat": "[local]"
+
+        }
+      ]
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-nullish-coalescing-operator",
+      "@babel/plugin-proposal-optional-chaining"
+
+    ]
+  },
+
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

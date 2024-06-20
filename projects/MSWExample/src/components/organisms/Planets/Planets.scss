@@ -1,0 +1,20 @@
+.planets__row {
+  display: flex;
+  border-bottom: 1px solid #efefef;
+}
+
+.planets__col {
+  width: 33.3%;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #efefef;
+}
+
+.planets__col:last-of-type {
+  border-right: 0;
+}
+
+.planets__col--heading {
+  font-weight: 600;
+}

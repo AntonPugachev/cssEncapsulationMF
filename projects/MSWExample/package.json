@@ -1,0 +1,61 @@
+{
+  "name": "redux",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start --env.ENVIRONMENT=development",
+    "build": "react-scripts build",
+    "test": "yarn jest --coverage",
+    "eject": "react-scripts eject",
+    "g": "node node_modules/react-generator-cmd/dist",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "dependencies": {
+    "react-redux": "^7.2.8",
+    "redux": "^4.1.2",
+    "redux-actions": "^2.6.5",
+    "redux-actions-ts": "^0.1.1",
+    "redux-observable": "^2.0.0",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "@types/jest": "^27.4.1",
+    "msw-storybook-addon": "^1.6.2",
+    "@storybook/addon-actions": "^6.4.20",
+    "@storybook/addon-essentials": "^6.4.20",
+    "@storybook/addon-interactions": "^6.4.20",
+    "@storybook/addon-links": "^6.4.20",
+    "@storybook/builder-webpack5": "^6.4.20",
+    "@storybook/manager-webpack5": "^6.4.20",
+    "@storybook/node-logger": "^6.4.20",
+    "@storybook/preset-create-react-app": "^4.1.0",
+    "@storybook/react": "^6.4.20",
+    "@storybook/testing-library": "^0.0.9",
+    "@types/react-redux": "^7.1.23",
+    "@types/redux-actions": "^2.6.2",
+    "msw": "^0.39.2",
+    "react-generator-cmd": "^2.1.2",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}

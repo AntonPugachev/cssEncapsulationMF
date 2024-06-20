@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 30px;
+  margin: 0;
+  font-family: sans-serif;
+}
+.component__wrapper{
+  max-width: 800px;
+
+}
+.component__text .component__error{
+  padding-left: 30px;
+}
+
