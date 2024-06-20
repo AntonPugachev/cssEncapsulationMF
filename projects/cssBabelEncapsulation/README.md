@@ -16,7 +16,7 @@ Starting the project and looking at the DOM, it is noticed that each react compo
 
 The issue is solved CSS will be encapsulated inside a react component.
 
-###Themes and styles
+### Themes and styles
 there are two types of files `global` and `local`
 
 The format of global files is `.global.scss`. All styles there works with interceptions as usual scss.

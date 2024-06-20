@@ -10,7 +10,7 @@ Results:
 <img alt="img.png" src="documentation/images/result.png" width="500"/>
 
 
-###Themes
+### Themes
 Native Theme Provider is used. 
 
 Benefits
