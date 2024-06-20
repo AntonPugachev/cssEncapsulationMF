@@ -16,9 +16,6 @@ Next step is add DynamicComponent in the project
 
 It is necessary to run all projects using `yarn start` in each of them.
 
-https://github.com/AntonPugachev/cssBabelEncapsulationExample
-https://github.com/AntonPugachev/cssStyledComponentsEncapsulationExample
-https://github.com/AntonPugachev/cssModulesEncapsulationExample
 
 Finally, we can start this project.
 All css  encapsulation approaches in the one project 
